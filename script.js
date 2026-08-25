@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
       e.preventDefault();
       const btn = form.querySelector('button[type="submit"]');
       const originalHTML = btn.innerHTML;
-      btn.innerHTML = '<i class="fa-solid fa-check"></i> Message Noted — Thank You!';
+      btn.innerHTML = '<i class="fa-solid fa-check"></i> Message Noted, Thank You!';
       form.reset();
       setTimeout(() => {
         btn.innerHTML = originalHTML;
